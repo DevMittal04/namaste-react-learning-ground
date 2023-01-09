@@ -1,10 +1,36 @@
-// React Way
+/***
+ * 
+ * HMR - Hot Module Replacement
+ * File Watcher Algorithm - C++
+ * BUNDLING
+ * MINIFY
+ * Cleaning our code
+ * Dev and Production Build
+ * Super fast build Algorithm
+ * Image Optimization
+ * Caching while Development
+ * Compression
+ * Compatible with older versions of browser
+ * HTTPS on 
+ * port Number
+ * Consistent Hashing
+ * Zero Config
+ * 
+ * 
+ * 
+ * 
+ */
+
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
 const heading = React.createElement(
     'h1',
     {
         id: 'title',
     },
-    'Namaste React'
+    'Namaste React from Parcel'
 );
 const heading2 = React.createElement(
     'h1',
@@ -23,9 +49,3 @@ const container = React.createElement(
 console.log(heading);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(container);
-
-// JS Way
-// const heading = document.createElement('h1');
-// heading.innerHTML = 'Namaste React';
-// const root = document.getElementById('root');
-// root.appendChild(heading);
