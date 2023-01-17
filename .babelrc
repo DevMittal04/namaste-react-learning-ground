@@ -1,0 +1,4 @@
+{
+	// The line removes console.log from dev environment as well
+	// "plugins": [["transform-remove-console", { "exclude": ["error", "warn"] }]]
+}
